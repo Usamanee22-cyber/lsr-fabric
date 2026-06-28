@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lsr-fabric"
+version = "0.1.0"
+description = "Dynamic Layer-Skipping & Parameter-Efficient Fabric for LLMs"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0"
+]
